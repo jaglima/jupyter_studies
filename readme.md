@@ -4,11 +4,17 @@ This repository contains a portfolio of data science projects completed by me fo
 
 ## Contents
 
-KKZ and K-means comparision I: Comparision between two methods in the context of ensembles of simulations. Overall characteristics.
-KKZ and K-means comparision II: Apply KKZ method in a tool set and perform an analysis about the optimal number of elements in the clustering process.
+[KKZ and K-means comparision I](https://github.com/jaglima/jupyter_studies/blob/master/kkz_kmeans_comparision_I.ipynb) : Comparision between two methods in the context of ensembles of simulations. Overall characteristics.
 
-Regression Analysis: Given a real dataset of weather observation and outputs from a numerical model.
-    Tools: Pandas, Matplotlib
+
+[KKZ and K-means comparision II](https://github.com/jaglima/jupyter_studies/blob/master/kkz_kmeans_comparision_II.ipynb) : Apply KKZ method in a tool set and perform an analysis about the optimal number of elements in the clustering process.
+
+
+[Regression Analysis](https://github.com/jaglima/jupyter_studies/blob/master/regression_test.ipynb): Given a real dataset of weather observation and outputs from a numerical model.
+
+[Clustering Silhouette Analysis](https://github.com/jaglima/jupyter_studies/blob/master/plot_kmeans_silhouette_analysis.ipynb): A tool to assess the optimal number of segmenting a cluster analysis.
+
+Tools: Pandas, Matplotlib
 
 
 ## Contact
