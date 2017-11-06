@@ -4,9 +4,9 @@ library(quantmod)
 library(ggplot2)
 
 
-tickers = c('VALE5.SA', 'PETR4.SA', 'ALLL3.SA', 'ELET6.SA','CSAN3.SA', 'USIM5.SA', 'LAME4.SA', 'CRUZ3.SA', 'MRFG3.SA', 'TIMP3.SA' )
+tickers = c('VALE5.SA', 'PETR4.SA', 'ELET6.SA','CSAN3.SA', 'USIM5.SA', 'LAME4.SA', 'MRFG3.SA', 'TIMP3.SA' )
 # each new ticker add to list above demands a new execution of getSymbol function
-#getSymbols(tickers)
+getSymbols(tickers)
 
 
 # create an xts object, select only close prices and join
@@ -18,9 +18,9 @@ closePrices = na.exclude(closePrices)
 # get returns instead prices
 # TODO:
 # When period is not a month, apply.montly must to be changed
-# returns = apply(ClosePrices, 2,function(x) diff(log(x)))
-# returns = apply.monthly(closePrices,function(x) monthlyReturn(x))
-returns = apply(closePrices, 2, function(x) diff(log(x), leg=2))
+returns = apply(closePrices, 2,function(x) diff(log(x)))
+#returns = apply.monthly(closePrices,function(x) monthlyReturn(x))
+#returns = apply(closePrices, 2, function(x) diff(log(x), leg=2))
 
 # calculate mean return for all months
 meanReturns = apply(returns, 2, mean, na.rm="FALSE")
@@ -84,7 +84,7 @@ eff.frontier <- function (returns, short="no", max.allocation=NULL, risk.premium
   return(as.data.frame(eff))
 }
 
-eff <- eff.frontier(returns=returns, short="no", max.allocation=.9, risk.premium.up=10.0, risk.increment=.001)
+eff <- eff.frontier(returns=returns, short="yes", max.allocation=0.8, risk.premium.up=5, risk.increment=.01)
 
 eff.optimal.point <- eff[eff$sharpe==max(eff$sharpe),]
 # Color Scheme
@@ -102,5 +102,5 @@ ggplot(eff, aes(x=Std.Dev, y=Exp.Return)) + geom_point(alpha=.1, color=ealdark) 
   theme(panel.background=element_rect(fill=eallighttan), text=element_text(color=ealdark),
         plot.title=element_text(size=20, color=ealred))
 
-
+plot(eff$Std.Dev, eff$Exp.Return)
 
