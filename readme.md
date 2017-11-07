@@ -17,9 +17,9 @@ Warning: Financial studies are not recommendation or financial advice in any cir
 
 [Value at Risk tool applied in Bitcoin Market](https://github.com/jaglima/jupyter_studies/blob/master/var_btc.ipynb): Value At Risk methodology has been applied as a great tool in risk management in industry. Here it is applied over Bitcoin market as a exploratory exercice.
 
-[Minimum Variance Portfolio](https://github.com/jaglima/jupyter_studies/blob/master/risk_return.ipynb): A risk return curve over a stock portfolio in R.
+[Minimum Variance Portfolio](https://github.com/jaglima/jupyter_studies/blob/master/ibov_stock_riskxreturn.ipynb): A risk return curve over a stock portfolio in R.
 
-[A Brazilian Public Bonds](): An small Brazilian public bonds.
+[Global Temperature Map ](https://github.com/jaglima/jupyter_studies/blob/master/temperature_map.ipynb): A netCDF4 data based heat map for global temperatures in Python 
 
 
 
