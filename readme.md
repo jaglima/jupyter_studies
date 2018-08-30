@@ -21,7 +21,7 @@ Warning: Financial studies are not recommendation or financial advice in any cir
 
 [Global Temperature Map ](https://github.com/jaglima/jupyter_studies/blob/master/temperature_map.ipynb): A netCDF4 data based heat map for global temperatures in Python 
 
-
+[Credit Concession Classification](https://github.com/jaglima/jupyter_studies/blob/master/temperature_map.ipynb): A modeling notebook with small analysis over a credit classification problem over a Japanese Credit dataset
 
 
 ## Contact
