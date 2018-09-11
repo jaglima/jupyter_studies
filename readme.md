@@ -25,4 +25,4 @@ Warning: Financial studies are not recommendation or financial advice in any cir
 
 
 ## Contact
-If you liked what you saw, want to have a chat with me about the portfolio, work opportunities or collaboration, send an email at <a href="http://www.google.com/recaptcha/mailhide/d?k=012jTHDOhAsYY5w1V8sI3hCA==&amp;c=QjNI6__50QaYwc9udjSzSrTY5DAlnwrGqtW8Ky3RbAM=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d012jTHDOhAsYY5w1V8sI3hCA\x3d\x3d\x26c\x3dQjNI6__50QaYwc9udjSzSrTY5DAlnwrGqtW8Ky3RbAM\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">jaglima...</a>@gmail.com
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities or collaboration, send an email at jesselima@protonmail.com
